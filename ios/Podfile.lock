@@ -2031,8 +2031,6 @@ PODS:
     - React
   - react-native-sfsymbols (1.2.2):
     - React
-  - react-native-splash-screen (3.3.0):
-    - React-Core
   - react-native-video (6.17.0):
     - boost
     - DoubleConversion
@@ -3195,7 +3193,6 @@ DEPENDENCIES:
   - "react-native-segmented-control (from `../node_modules/@react-native-community/segmented-control`)"
   - react-native-settings (from `../node_modules/react-native-settings`)
   - react-native-sfsymbols (from `../node_modules/react-native-sfsymbols`)
-  - react-native-splash-screen (from `../node_modules/react-native-splash-screen`)
   - react-native-video (from `../node_modules/react-native-video`)
   - react-native-view-shot (from `../node_modules/react-native-view-shot`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
@@ -3365,8 +3362,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-settings"
   react-native-sfsymbols:
     :path: "../node_modules/react-native-sfsymbols"
-  react-native-splash-screen:
-    :path: "../node_modules/react-native-splash-screen"
   react-native-video:
     :path: "../node_modules/react-native-video"
   react-native-view-shot:
@@ -3521,7 +3516,6 @@ SPEC CHECKSUMS:
   react-native-segmented-control: 65df6cd0619b780b3843d574a72d4c7cec396097
   react-native-settings: de33712c24a71b1d78a005f8befc30f07cafafb9
   react-native-sfsymbols: ca90d8bb7d6ad06523bf833f2becae22b97fb056
-  react-native-splash-screen: 4312f786b13a81b5169ef346d76d33bc0c6dc457
   react-native-video: 58ca400e410fec7572628df817841b7d8f376ea6
   react-native-view-shot: aac285cd08144be29c19ab659930172836f0067f
   React-NativeModulesApple: b5d18bc109c45c9a1c6b71664991b5cc3adc4e48
