@@ -5,7 +5,7 @@ import { useNetInfo } from '@react-native-community/netinfo';
 import { focusManager } from '@tanstack/react-query'
 import { io } from 'socket.io-client';
 import Rate, { AndroidMarket } from 'react-native-rate';
-import SplashScreen from '@lucasdev/react-native-modern-splash-screen';
+// import SplashScreen from '@lucasdev/react-native-modern-splash-screen';
 
 import { GlobalContext } from './libs/globalContext';
 import { getConfig } from './libs/api';
@@ -37,7 +37,7 @@ const RoutesInit = () => {
     useEffect(() => {
         if (!global?.firstTime || global?.suggestStoreSelection) {
             setTimeout(() => {
-                SplashScreen?.hide();
+                // SplashScreen?.hide();
             }, 100);
         }
     }, [global.firstTime, global.suggestStoreSelection])
@@ -102,7 +102,7 @@ const RoutesInit = () => {
 
         if (!global?.firstTime) {
             setTimeout(() => {
-                SplashScreen?.hide();
+                // SplashScreen?.hide();
             }, 100);
         }
 
