@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@expo/react-native-action-sheet": "^4.1.1",
+    "@lucasdev/react-native-modern-splash-screen": "file:./packages/react-native-modern-splash-screen",
     "@notifee/react-native": "^9.1.8",
     "@react-native-community/blur": "^4.4.1",
     "@react-native-community/geolocation": "^3.4.0",
@@ -67,7 +68,6 @@
     "react-native-share": "^12.2.0",
     "react-native-size-matters": "^0.4.2",
     "react-native-snap-carousel": "4.0.0-beta.6",
-    "react-native-splash-screen": "3.3.0",
     "react-native-ui-devkit": "^2.0.9",
     "react-native-uuid": "^2.0.3",
     "react-native-vector-icons": "10.0.1",

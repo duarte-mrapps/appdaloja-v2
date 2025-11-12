@@ -5,7 +5,7 @@ import { useNetInfo } from '@react-native-community/netinfo';
 import { focusManager } from '@tanstack/react-query'
 import { io } from 'socket.io-client';
 import Rate, { AndroidMarket } from 'react-native-rate';
-import SplashScreen from 'react-native-splash-screen';
+import SplashScreen from '@lucasdev/react-native-modern-splash-screen';
 
 import { GlobalContext } from './libs/globalContext';
 import { getConfig } from './libs/api';
